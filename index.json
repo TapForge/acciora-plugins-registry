@@ -321,11 +321,11 @@
       "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/home_assistant/README.md",
       "license": "Acciora Plugin EULA",
       "permissions": [],
-      "bundled": true,
+      "bundled": false,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/home_assistant-v1.0.0/home_assistant.bundle.zip",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "size_bytes": 0
+        "sha256": "d3010d4afe223354bb010a4b39ebe79087e814c1e715a6caa1c39cabcc1b3f6b",
+        "size_bytes": 1156109
       }
     },
     {
