@@ -189,11 +189,11 @@
       "permissions": [
         "fullDiskAccess"
       ],
-      "bundled": true,
+      "bundled": false,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/exchange_mail-v1.0.0/exchange_mail.bundle.zip",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "size_bytes": 0
+        "sha256": "a1047955fa428ca2ccf296462acd4b8952c18dc0fc7849b525a4352bffb3f5a1",
+        "size_bytes": 1098698
       }
     },
     {
