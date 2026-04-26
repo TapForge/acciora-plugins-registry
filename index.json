@@ -165,11 +165,11 @@
       "permissions": [
         "fullDiskAccess"
       ],
-      "bundled": true,
+      "bundled": false,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/icloud_mail-v1.0.0/icloud_mail.bundle.zip",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "size_bytes": 0
+        "sha256": "dfe7d3719beca3974879c3c0b0cd543e2d4ed82ec15ad53fe354082fc39408f6",
+        "size_bytes": 1095229
       }
     },
     {
