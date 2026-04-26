@@ -67,11 +67,11 @@
       "permissions": [
         "reminders"
       ],
-      "bundled": false,
+      "bundled": true,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/reminders-v1.0.0/reminders.bundle.zip",
-        "sha256": "cd4737d876023ecbc3ac161f43da2f704ccc599eaf5f980ade1281c048c8e460",
-        "size_bytes": 1244849
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "size_bytes": 0
       }
     },
     {
