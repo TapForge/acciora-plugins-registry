@@ -233,11 +233,11 @@
       "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/azure_effort/README.md",
       "license": "Acciora Plugin EULA",
       "permissions": [],
-      "bundled": true,
+      "bundled": false,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/azure_effort-v1.0.0/azure_effort.bundle.zip",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "size_bytes": 0
+        "sha256": "354f328d3c3e1f981dd8886e0f10d2631d435efc69cf2148dfeb0767c8c693ff",
+        "size_bytes": 1234120
       }
     },
     {
@@ -255,11 +255,11 @@
       "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/azure_pr/README.md",
       "license": "Acciora Plugin EULA",
       "permissions": [],
-      "bundled": true,
+      "bundled": false,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/azure_pr-v1.0.0/azure_pr.bundle.zip",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "size_bytes": 0
+        "sha256": "8d39d8e24b14f9da9a8ee5a69147aa47bf1efd4fc6cc85ce01ff90d21ab3ead3",
+        "size_bytes": 1232020
       }
     },
     {
