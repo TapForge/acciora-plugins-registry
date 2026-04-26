@@ -299,11 +299,11 @@
       "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/linkedin/README.md",
       "license": "Acciora Plugin EULA",
       "permissions": [],
-      "bundled": true,
+      "bundled": false,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/linkedin-v1.0.0/linkedin.bundle.zip",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "size_bytes": 0
+        "sha256": "83d64eee888418dabb82a177d4942de3bb3c9e2b6b24f97613da2c5bccf35f5d",
+        "size_bytes": 1311555
       }
     },
     {
