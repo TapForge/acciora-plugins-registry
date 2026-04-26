@@ -141,11 +141,11 @@
       "permissions": [
         "contacts"
       ],
-      "bundled": true,
+      "bundled": false,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/whatsapp-v1.0.0/whatsapp.bundle.zip",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "size_bytes": 0
+        "sha256": "8388cbf52fd94691a338d9650e4914f6b296d02cdeaa27bc635b5e25e01464c8",
+        "size_bytes": 1147403
       }
     },
     {
