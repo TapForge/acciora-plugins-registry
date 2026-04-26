@@ -211,11 +211,11 @@
       "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/teams/README.md",
       "license": "Acciora Plugin EULA",
       "permissions": [],
-      "bundled": true,
+      "bundled": false,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/teams-v1.0.0/teams.bundle.zip",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "size_bytes": 0
+        "sha256": "a19989827927ba28ebcd2413fa8949e7c9d32cee3177fc6acee65b18c4fcd1f5",
+        "size_bytes": 1239604
       }
     },
     {
