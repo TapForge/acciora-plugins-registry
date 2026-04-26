@@ -117,11 +117,11 @@
         "fullDiskAccess",
         "contacts"
       ],
-      "bundled": true,
+      "bundled": false,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/imessage-v1.0.0/imessage.bundle.zip",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "size_bytes": 0
+        "sha256": "b0491758e9844723cc55b6fb5a681dc02edeccd6dc1632d13c32093fa158999f",
+        "size_bytes": 1109556
       }
     },
     {
