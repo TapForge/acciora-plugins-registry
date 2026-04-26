@@ -16,12 +16,14 @@
       "author": "TapForge",
       "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/weather/README.md",
       "license": "Acciora Plugin EULA",
-      "permissions": ["location"],
-      "bundled": true,
+      "permissions": [
+        "location"
+      ],
+      "bundled": false,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/weather-v1.0.0/weather.bundle.zip",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "size_bytes": 0
+        "sha256": "5eac1c8687a3992909e6a8ebfaa33ca752994f8fd3fe5c46b5d7e478d9b64f72",
+        "size_bytes": 1129158
       }
     },
     {
@@ -38,7 +40,9 @@
       "author": "TapForge",
       "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/calendar/README.md",
       "license": "Acciora Plugin EULA",
-      "permissions": ["calendar"],
+      "permissions": [
+        "calendar"
+      ],
       "bundled": true,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/calendar-v1.0.0/calendar.bundle.zip",
@@ -60,7 +64,9 @@
       "author": "TapForge",
       "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/reminders/README.md",
       "license": "Acciora Plugin EULA",
-      "permissions": ["reminders"],
+      "permissions": [
+        "reminders"
+      ],
       "bundled": true,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/reminders-v1.0.0/reminders.bundle.zip",
@@ -82,7 +88,10 @@
       "author": "TapForge",
       "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/call_note/README.md",
       "license": "Acciora Plugin EULA",
-      "permissions": ["fullDiskAccess", "contacts"],
+      "permissions": [
+        "fullDiskAccess",
+        "contacts"
+      ],
       "bundled": true,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/call_note-v1.0.0/call_note.bundle.zip",
@@ -104,7 +113,10 @@
       "author": "TapForge",
       "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/imessage/README.md",
       "license": "Acciora Plugin EULA",
-      "permissions": ["fullDiskAccess", "contacts"],
+      "permissions": [
+        "fullDiskAccess",
+        "contacts"
+      ],
       "bundled": true,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/imessage-v1.0.0/imessage.bundle.zip",
@@ -126,7 +138,9 @@
       "author": "TapForge",
       "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/whatsapp/README.md",
       "license": "Acciora Plugin EULA",
-      "permissions": ["contacts"],
+      "permissions": [
+        "contacts"
+      ],
       "bundled": true,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/whatsapp-v1.0.0/whatsapp.bundle.zip",
@@ -148,7 +162,9 @@
       "author": "TapForge",
       "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/icloud_mail/README.md",
       "license": "Acciora Plugin EULA",
-      "permissions": ["fullDiskAccess"],
+      "permissions": [
+        "fullDiskAccess"
+      ],
       "bundled": true,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/icloud_mail-v1.0.0/icloud_mail.bundle.zip",
@@ -170,7 +186,9 @@
       "author": "TapForge",
       "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/exchange_mail/README.md",
       "license": "Acciora Plugin EULA",
-      "permissions": ["fullDiskAccess"],
+      "permissions": [
+        "fullDiskAccess"
+      ],
       "bundled": true,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/exchange_mail-v1.0.0/exchange_mail.bundle.zip",
