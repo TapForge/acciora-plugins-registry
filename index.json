@@ -92,11 +92,11 @@
         "fullDiskAccess",
         "contacts"
       ],
-      "bundled": true,
+      "bundled": false,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/call_note-v1.0.0/call_note.bundle.zip",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "size_bytes": 0
+        "sha256": "30f3aa8d767ab7d3ac1eed690461b6f475f917fe088e3f6ac29aa5028905f5b1",
+        "size_bytes": 1234263
       }
     },
     {
