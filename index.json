@@ -22,8 +22,8 @@
       "bundled": false,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/weather-v1.0.0/weather.bundle.zip",
-        "sha256": "5eac1c8687a3992909e6a8ebfaa33ca752994f8fd3fe5c46b5d7e478d9b64f72",
-        "size_bytes": 1129158
+        "sha256": "ff522c3a9fd4e9840b2be4b22935ff585733154912a2ea6dacce3cc81d516f58",
+        "size_bytes": 1129170
       }
     },
     {
