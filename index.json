@@ -343,11 +343,11 @@
       "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/health/README.md",
       "license": "Acciora Plugin EULA",
       "permissions": [],
-      "bundled": true,
+      "bundled": false,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/health-v1.0.0/health.bundle.zip",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "size_bytes": 0
+        "sha256": "0ceb372c0b7d35f6f571b21d67cf5e21774388e1c3c30c85064c12ddf4bb67f5",
+        "size_bytes": 1254892
       }
     }
   ]
