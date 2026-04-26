@@ -43,11 +43,11 @@
       "permissions": [
         "calendar"
       ],
-      "bundled": true,
+      "bundled": false,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/calendar-v1.0.0/calendar.bundle.zip",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "size_bytes": 0
+        "sha256": "294d4b32957dca3160730d3228850eb065f0602be5a8182c9af30f7c1dbc2823",
+        "size_bytes": 1125662
       }
     },
     {
