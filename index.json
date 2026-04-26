@@ -277,11 +277,11 @@
       "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/instagram_dm/README.md",
       "license": "Acciora Plugin EULA",
       "permissions": [],
-      "bundled": true,
+      "bundled": false,
       "download": {
         "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/instagram_dm-v1.0.0/instagram_dm.bundle.zip",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "size_bytes": 0
+        "sha256": "aa4e27c1e289f5ba48596dc32d2c4beac145dc34d84a5d79de0220c6d17d6415",
+        "size_bytes": 1324047
       }
     },
     {
