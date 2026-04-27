@@ -437,6 +437,28 @@
         "sha256": "e40ab0f0d5b52511f8c253bf413c92f18fcafe6c4489f324f77a719a8fd670c1",
         "size_bytes": 1116976
       }
+    },
+    {
+      "id": "finance",
+      "displayName": "Finans",
+      "subtitle": "Gelir/gider/borç/alacak ledger ve sabit işlem yönetimi",
+      "description": "Tüm finansal hareketleri SQLite ledger'ında saklar; aylık özet, açık borç/alacak takibi, tekrarlayan otomatik işlemler (aylık/haftalık/yıllık) ve sabah/akşam raporlarına finans özeti ekler. Asistan üzerinden ses komutuyla kayıt ekleyebilirsin.",
+      "icon": "banknote",
+      "color": "green",
+      "kind": "other",
+      "category": "productivity",
+      "version": "1.0.0",
+      "minimumAccioraVersion": "0.6.0",
+      "author": "TapForge",
+      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/finance/README.md",
+      "license": "Acciora Plugin EULA",
+      "permissions": [],
+      "bundled": false,
+      "download": {
+        "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/finance-v1.0.0/finance.bundle.zip",
+        "sha256": "700f04950813ed85db5b2793c46d6775df08ebfb9e2161eca25f0cc07e11deb9",
+        "size_bytes": 1140066
+      }
     }
   ]
 }
