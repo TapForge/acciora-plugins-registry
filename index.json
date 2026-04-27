@@ -415,6 +415,28 @@
         "sha256": "ba1d0145523bdfb1f8b6334cd37a73b39ed5e9f15c6c61a4363ef80c5fdd2b1a",
         "size_bytes": 1135819
       }
+    },
+    {
+      "id": "backup",
+      "displayName": "Yedekleme",
+      "subtitle": "Çalışma alanı + SQLite otomatik & manuel yedekleme",
+      "description": "Workspace klasörlerini ve SQLite veritabanını günde bir kez otomatik yedekler; Yönetici > Yedekler sekmesinden manuel yedek alma, listeleme, geri yükleme ve silme imkânı sunar. Yedek sayısı limiti aşılınca eski yedekler otomatik temizlenir.",
+      "icon": "externaldrive.fill",
+      "color": "indigo",
+      "kind": "other",
+      "category": "system",
+      "version": "1.0.0",
+      "minimumAccioraVersion": "0.6.0",
+      "author": "TapForge",
+      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/backup/README.md",
+      "license": "Acciora Plugin EULA",
+      "permissions": [],
+      "bundled": false,
+      "download": {
+        "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/backup-v1.0.0/backup.bundle.zip",
+        "sha256": "e40ab0f0d5b52511f8c253bf413c92f18fcafe6c4489f324f77a719a8fd670c1",
+        "size_bytes": 1116976
+      }
     }
   ]
 }
