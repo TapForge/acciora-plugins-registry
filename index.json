@@ -1,578 +1,604 @@
 {
-  "registry_version": 1,
-  "generated_at": "2026-04-27T09:56:24Z",
-  "plugins": [
-    {
-      "id": "anthropic",
-      "displayName": "Anthropic (Claude)",
-      "subtitle": "Claude (Opus/Sonnet/Haiku) AI sağlayıcısı",
-      "description": "Anthropic Claude API ve CLI üzerinden AI tabanlı rapor üretimi",
-      "icon": "brain.head.profile",
-      "color": "orange",
-      "kind": "aiProvider",
-      "category": "ai_provider",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/anthropic/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/anthropic-v1.0.1/anthropic.bundle.zip",
-        "sha256": "6e6a4f3e0c8671934ee3885be64dda07de160ad1799549f44dce12809a9399d6",
-        "sizeBytes": 1148551
-      }
-    },
-    {
-      "id": "openai",
-      "displayName": "OpenAI",
-      "subtitle": "GPT-4 / GPT-4o ile alternatif AI rapor üretimi",
-      "description": "Anthropic'e alternatif AI sağlayıcı",
-      "icon": "brain.head.profile",
-      "color": "green",
-      "kind": "aiProvider",
-      "category": "ai_provider",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/openai/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/openai-v1.0.1/openai.bundle.zip",
-        "sha256": "6d420c9bf4f215b1d3d778547ee314064b798ad307e31e946214dc80e836c1f6",
-        "sizeBytes": 1142250
-      }
-    },
-    {
-      "id": "elevenlabs",
-      "displayName": "ElevenLabs",
-      "subtitle": "Sesli rapor üretimi (Text-to-Speech)",
-      "description": "Sabah/akşam raporlarını yüksek kaliteli ses olarak okur",
-      "icon": "waveform",
-      "color": "pink",
-      "kind": "ttsProvider",
-      "category": "tts_provider",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/elevenlabs/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/elevenlabs-v1.0.1/elevenlabs.bundle.zip",
-        "sha256": "1c809df97a1f2daf07e6a2d3b4da0033d8e0a3b11410365def5bd6a469005be4",
-        "sizeBytes": 1135898
-      }
-    },
-    {
-      "id": "backup",
-      "displayName": "Yedekleme",
-      "subtitle": "Çalışma alanı + SQLite otomatik & manuel yedekleme",
-      "description": "Workspace klasörlerini ve SQLite veritabanını günde bir kez otomatik yedekler",
-      "icon": "externaldrive.fill",
-      "color": "indigo",
-      "kind": "other",
-      "category": "system",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/backup/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/backup-v1.0.1/backup.bundle.zip",
-        "sha256": "fa8c26e8cb952502be54f7a9d9acd7d39e41f3364fbdfc786a55cccc6b00a004",
-        "sizeBytes": 1116993
-      }
-    },
-    {
-      "id": "finance",
-      "displayName": "Finans",
-      "subtitle": "Gelir/gider/borç/alacak ledger ve sabit işlem yönetimi",
-      "description": "Tüm finansal hareketleri SQLite ledger'ında saklar",
-      "icon": "banknote",
-      "color": "green",
-      "kind": "other",
-      "category": "productivity",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/finance/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/finance-v1.0.1/finance.bundle.zip",
-        "sha256": "8647762b5a4662c9293e2417b09d2c1cae18a7fe08816decc151002e12a0f24b",
-        "sizeBytes": 1140085
-      }
-    },
-    {
-      "id": "journal",
-      "displayName": "Günlük",
-      "subtitle": "Ruh hali, minnettarlık, başarı, alışkanlık ve hedef takibi",
-      "description": "Günlük ruh hali, enerji, stres, odak seviyesi",
-      "icon": "book.closed",
-      "color": "purple",
-      "kind": "other",
-      "category": "productivity",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/journal/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/journal-v1.0.1/journal.bundle.zip",
-        "sha256": "2c70b270bd1b725146f387025365473ecb9eacb3fb1be6d96e25cc82ca3a75e3",
-        "sizeBytes": 1124340
-      }
-    },
-    {
-      "id": "routine",
-      "displayName": "Rutinler",
-      "subtitle": "Tekrarlayan rutin + günlük log + streak + tutarsızlık motoru",
-      "description": "Daily/weekly/monthly tekrarlı rutinler, sağlık verisinden otomatik tamamlama",
-      "icon": "repeat",
-      "color": "teal",
-      "kind": "other",
-      "category": "productivity",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/routine/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/routine-v1.0.1/routine.bundle.zip",
-        "sha256": "db92c43ef819d1ecfdd1327a66c02eea502426a8e854e2379391745c8a6fb537",
-        "sizeBytes": 1134092
-      }
-    },
-    {
-      "id": "life_context",
-      "displayName": "Yaşam Bağlamı",
-      "subtitle": "Sağlık/iş/ev notları (rutin tutarsızlık motorunu etkinleştirir)",
-      "description": "Aktif yaşam bağlamı notlarını tutar",
-      "icon": "person.text.rectangle",
-      "color": "brown",
-      "kind": "other",
-      "category": "productivity",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/life_context/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/life_context-v1.0.1/life_context.bundle.zip",
-        "sha256": "58e10ff6d2d6866a4499c6075fe56e95724e73f4fbbb2c3f12f4b7f629a3a964",
-        "sizeBytes": 1109989
-      }
-    },
-    {
-      "id": "person_merge",
-      "displayName": "Kişi Yönetimi",
-      "subtitle": "Kişi alias birleştirme + grup yönetimi + etkileşim notları",
-      "description": "PersonMerge runtime plugin (alias resolution + person groups + interaction notes)",
-      "icon": "person.2.crop.square.stack",
-      "color": "blue",
-      "kind": "other",
-      "category": "identity",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/person_merge/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/person_merge-v1.0.1/person_merge.bundle.zip",
-        "sha256": "5a9b1e63b9b0fd2cf7f4a8093ac161f4ceab1bea9c374ea5a5c5f177633f2150",
-        "sizeBytes": 1185538
-      }
-    },
-    {
-      "id": "topic",
-      "displayName": "Konu Yönetimi",
-      "subtitle": "TopicLink + TopicAction + CrossRef yönetimi",
-      "description": "Konu yönetimi runtime plugin",
-      "icon": "text.bubble.fill",
-      "color": "orange",
-      "kind": "other",
-      "category": "productivity",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/topic/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/topic-v1.0.1/topic.bundle.zip",
-        "sha256": "5d2202d3d2e19e793e2203b36214dc215c1878304b8ea645f546e8ad9e6bdb67",
-        "sizeBytes": 1174457
-      }
-    },
-    {
-      "id": "chat_room",
-      "displayName": "Sohbet Odaları",
-      "subtitle": "WhatsApp/Teams/Instagram/iMessage/Phone oda yönetimi",
-      "description": "ChatRoom + MessageSender runtime plugin",
-      "icon": "bubble.left.and.bubble.right.fill",
-      "color": "green",
-      "kind": "other",
-      "category": "productivity",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/chat_room/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/chat_room-v1.0.1/chat_room.bundle.zip",
-        "sha256": "911eea55ccb500e28256c37748a3c8e1499fbaccfe97123ce71cb3973d5f1c06",
-        "sizeBytes": 1165430
-      }
-    },
-    {
-      "id": "calendar",
-      "displayName": "Takvim",
-      "subtitle": "macOS Takvim entegrasyonu (EventKit)",
-      "description": "Tüm Takvim hesaplarını izler ve raporlara ekler",
-      "icon": "calendar",
-      "color": "red",
-      "kind": "module",
-      "category": "data_source",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/calendar/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/calendar-v1.0.1/calendar.bundle.zip",
-        "sha256": "4aad99592fc4086efccd4931a5cafd1988dfddfa25471436c7236f04af5f413c",
-        "sizeBytes": 1125654
-      }
-    },
-    {
-      "id": "reminders",
-      "displayName": "Anımsatıcılar",
-      "subtitle": "macOS Hatırlatıcılar entegrasyonu",
-      "description": "Apple Anımsatıcılar uygulamasındaki tüm aktif görevleri izler",
-      "icon": "checklist",
-      "color": "orange",
-      "kind": "module",
-      "category": "data_source",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/reminders/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/reminders-v1.0.1/reminders.bundle.zip",
-        "sha256": "0daa89d1dcb0b66aa9442b3b08e8d0e7396ce511e4c3880263604530801fd362",
-        "sizeBytes": 1233616
-      }
-    },
-    {
-      "id": "weather",
-      "displayName": "Hava Durumu",
-      "subtitle": "Open-Meteo entegrasyonu",
-      "description": "Konum bazlı günlük hava durumu raporları",
-      "icon": "cloud.sun.fill",
-      "color": "cyan",
-      "kind": "module",
-      "category": "data_source",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/weather/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/weather-v1.0.1/weather.bundle.zip",
-        "sha256": "a74cc9005085e2a02c81dce3a2ed2e43601847d544632e2508715e483bf7d295",
-        "sizeBytes": 1129155
-      }
-    },
-    {
-      "id": "azure_effort",
-      "displayName": "Azure DevOps Efor",
-      "subtitle": "Work item / story point takibi",
-      "description": "Tüm takım için story point yükü ve aktif iş öğeleri",
-      "icon": "chart.bar.fill",
-      "color": "blue",
-      "kind": "module",
-      "category": "data_source",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/azure_effort/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/azure_effort-v1.0.1/azure_effort.bundle.zip",
-        "sha256": "f4e7ee4cd3ea7abdc2fe451a7ac581ea7160cbf9db2daafae7c2be7adbbe64f0",
-        "sizeBytes": 1234117
-      }
-    },
-    {
-      "id": "azure_pr",
-      "displayName": "Azure DevOps PR",
-      "subtitle": "Pull Request raporu",
-      "description": "Aktif PR'lar ve günlük tamamlananlar",
-      "icon": "arrow.triangle.merge",
-      "color": "blue",
-      "kind": "module",
-      "category": "data_source",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/azure_pr/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/azure_pr-v1.0.1/azure_pr.bundle.zip",
-        "sha256": "e01c912c3c9ace2b9459f5ac5c31ac07a5478e200e9a54288035f06ac58ccc56",
-        "sizeBytes": 1232002
-      }
-    },
-    {
-      "id": "call_note",
-      "displayName": "Telefon Notları",
-      "subtitle": "Telefon arama geçmişi + notlar",
-      "description": "Cevapsız aramalar için bildirim ve not yönetimi",
-      "icon": "phone.fill",
-      "color": "green",
-      "kind": "module",
-      "category": "data_source",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/call_note/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/call_note-v1.0.1/call_note.bundle.zip",
-        "sha256": "92e8d7b12d38b5ae05be152dfaf2a3dec959e452f32a489c8d5d0342d839ac26",
-        "sizeBytes": 1234264
-      }
-    },
-    {
-      "id": "health",
-      "displayName": "Sağlık",
-      "subtitle": "Apple Health entegrasyonu",
-      "description": "Adım, uyku, kalori, kalp atış hızı raporları",
-      "icon": "heart.fill",
-      "color": "red",
-      "kind": "module",
-      "category": "data_source",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/health/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/health-v1.0.1/health.bundle.zip",
-        "sha256": "98da08a507fb4c25be5bb90a1dcc3aa2801f43942f608aed7c8624ab8f092df2",
-        "sizeBytes": 1254899
-      }
-    },
-    {
-      "id": "exchange_mail",
-      "displayName": "Exchange Mail",
-      "subtitle": "Microsoft Exchange e-posta",
-      "description": "Exchange üzerinden e-posta özeti",
-      "icon": "envelope.badge.fill",
-      "color": "blue",
-      "kind": "module",
-      "category": "data_source",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/exchange_mail/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/exchange_mail-v1.0.1/exchange_mail.bundle.zip",
-        "sha256": "c2c1001837dbff83f1790839aaba366b4fe0db277fdfc12d4221adc952ea84f1",
-        "sizeBytes": 1098692
-      }
-    },
-    {
-      "id": "home_assistant",
-      "displayName": "Home Assistant",
-      "subtitle": "Akıllı ev cihazları",
-      "description": "Home Assistant üzerinden cihaz durumu ve kontrol",
-      "icon": "house.fill",
-      "color": "cyan",
-      "kind": "module",
-      "category": "data_source",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/home_assistant/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/home_assistant-v1.0.1/home_assistant.bundle.zip",
-        "sha256": "64a0a60701aaeb845f01da9518f71cf650ce9ee096b34874f99adbec9037012c",
-        "sizeBytes": 1156101
-      }
-    },
-    {
-      "id": "instagram_dm",
-      "displayName": "Instagram DM",
-      "subtitle": "Instagram mesajları",
-      "description": "Instagram DM özeti (Docker bridge)",
-      "icon": "camera.fill",
-      "color": "pink",
-      "kind": "module",
-      "category": "messaging",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/instagram_dm/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/instagram_dm-v1.0.1/instagram_dm.bundle.zip",
-        "sha256": "ab8663b3e6661fd261e89555dcd182c415d90f84147a2581662b5ee38ddbaeac",
-        "sizeBytes": 1323960
-      }
-    },
-    {
-      "id": "linkedin",
-      "displayName": "LinkedIn",
-      "subtitle": "LinkedIn aktivite",
-      "description": "LinkedIn invitations + DM özeti",
-      "icon": "briefcase.fill",
-      "color": "blue",
-      "kind": "module",
-      "category": "messaging",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/linkedin/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/linkedin-v1.0.1/linkedin.bundle.zip",
-        "sha256": "e042808e9bc41f0727377f678279822ea872842e4a961e80c7d0069141f7aaaa",
-        "sizeBytes": 1311538
-      }
-    },
-    {
-      "id": "teams",
-      "displayName": "Microsoft Teams",
-      "subtitle": "Teams sohbet özeti",
-      "description": "Tüm Teams kanallarındaki günlük aktivite",
-      "icon": "person.3.fill",
-      "color": "purple",
-      "kind": "module",
-      "category": "messaging",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/teams/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/teams-v1.0.1/teams.bundle.zip",
-        "sha256": "5aedf55aa308290d7b9ee8c0a8be8fc4fd48c673f91e07c7465e1c2217233c22",
-        "sizeBytes": 1239589
-      }
-    },
-    {
-      "id": "whatsapp",
-      "displayName": "WhatsApp",
-      "subtitle": "WhatsApp mesaj özeti",
-      "description": "Web bridge ile WhatsApp mesajları",
-      "icon": "message.fill",
-      "color": "green",
-      "kind": "module",
-      "category": "messaging",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/whatsapp/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/whatsapp-v1.0.1/whatsapp.bundle.zip",
-        "sha256": "411b0d7cfce90b7c365465e079c3343ebc40896a338c3553d6e08ea67d285590",
-        "sizeBytes": 1147340
-      }
-    },
-    {
-      "id": "icloud_mail",
-      "displayName": "iCloud Mail",
-      "subtitle": "iCloud Mail entegrasyonu",
-      "description": "iCloud üzerinden e-posta özeti",
-      "icon": "envelope.fill",
-      "color": "gray",
-      "kind": "module",
-      "category": "data_source",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/icloud_mail/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/icloud_mail-v1.0.1/icloud_mail.bundle.zip",
-        "sha256": "80682508bfeb9a831d9ddce033623d42a3e45eedad95471b026dcc06a27382f1",
-        "sizeBytes": 1095235
-      }
-    },
-    {
-      "id": "imessage",
-      "displayName": "iMessage",
-      "subtitle": "macOS iMessage",
-      "description": "chat.db üzerinden mesaj özeti",
-      "icon": "message.fill",
-      "color": "blue",
-      "kind": "module",
-      "category": "data_source",
-      "version": "1.0.1",
-      "minimumAccioraVersion": "0.6.0",
-      "author": "TapForge",
-      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/imessage/README.md",
-      "license": "Acciora Plugin EULA",
-      "permissions": [],
-      "bundled": false,
-      "download": {
-        "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/imessage-v1.0.1/imessage.bundle.zip",
-        "sha256": "b467830fb7b554a36b031bc93b125f41144daa56ad8cb00cf5a5d8e234179dc7",
-        "sizeBytes": 1109553
-      }
-    }
-  ]
+    "registry_version": 1,
+    "generated_at": "2026-04-27T10:35:48Z",
+    "plugins": [
+        {
+            "id": "anthropic",
+            "displayName": "Anthropic (Claude)",
+            "subtitle": "Claude (Opus/Sonnet/Haiku) AI sağlayıcısı",
+            "description": "Anthropic Claude API ve CLI üzerinden AI tabanlı rapor üretimi",
+            "icon": "brain.head.profile",
+            "color": "orange",
+            "kind": "aiProvider",
+            "category": "ai_provider",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/anthropic/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/anthropic-v1.0.2/anthropic.bundle.zip",
+                "sha256": "9046c2b8f98c88b31ed96fa4a28362138553ea7451bf65476a05220e362d29ec",
+                "sizeBytes": 1148566
+            }
+        }
+,
+        {
+            "id": "openai",
+            "displayName": "OpenAI",
+            "subtitle": "GPT-4 / GPT-4o ile alternatif AI rapor üretimi",
+            "description": "Anthropic'e alternatif AI sağlayıcı",
+            "icon": "brain.head.profile",
+            "color": "green",
+            "kind": "aiProvider",
+            "category": "ai_provider",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/openai/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/openai-v1.0.2/openai.bundle.zip",
+                "sha256": "fe49d94ff89d8a374cf5fbc2120fd071a029eeaed2d4f376f39a3549fb23bf12",
+                "sizeBytes": 1142273
+            }
+        }
+,
+        {
+            "id": "elevenlabs",
+            "displayName": "ElevenLabs",
+            "subtitle": "Sesli rapor üretimi (Text-to-Speech)",
+            "description": "Sabah/akşam raporlarını yüksek kaliteli ses olarak okur",
+            "icon": "waveform",
+            "color": "pink",
+            "kind": "ttsProvider",
+            "category": "tts_provider",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/elevenlabs/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/elevenlabs-v1.0.2/elevenlabs.bundle.zip",
+                "sha256": "f69e49c1341918ff66244a743039c782edb3f332d1eb2fc9a56fb77bc1acb2b9",
+                "sizeBytes": 1135890
+            }
+        }
+,
+        {
+            "id": "backup",
+            "displayName": "Yedekleme",
+            "subtitle": "Çalışma alanı + SQLite otomatik & manuel yedekleme",
+            "description": "Workspace klasörlerini ve SQLite veritabanını günde bir kez otomatik yedekler",
+            "icon": "externaldrive.fill",
+            "color": "indigo",
+            "kind": "other",
+            "category": "system",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/backup/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/backup-v1.0.2/backup.bundle.zip",
+                "sha256": "9c8a53ef142d7cb0ecff1ab27626b8326142e7707a51290178dca00eeef75ea9",
+                "sizeBytes": 1116972
+            }
+        }
+,
+        {
+            "id": "finance",
+            "displayName": "Finans",
+            "subtitle": "Gelir/gider/borç/alacak ledger ve sabit işlem yönetimi",
+            "description": "Tüm finansal hareketleri SQLite ledger'ında saklar",
+            "icon": "banknote",
+            "color": "green",
+            "kind": "other",
+            "category": "productivity",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/finance/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/finance-v1.0.2/finance.bundle.zip",
+                "sha256": "632aefc818af973407db7981bb4c7f8d895e1ce5765fb92bd6fa3dd0923a33bd",
+                "sizeBytes": 1140089
+            }
+        }
+,
+        {
+            "id": "journal",
+            "displayName": "Günlük",
+            "subtitle": "Ruh hali, minnettarlık, başarı, alışkanlık ve hedef takibi",
+            "description": "Günlük ruh hali, enerji, stres, odak seviyesi",
+            "icon": "book.closed",
+            "color": "purple",
+            "kind": "other",
+            "category": "productivity",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/journal/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/journal-v1.0.2/journal.bundle.zip",
+                "sha256": "aba9fa127d15814e08688d8aff8dbabe710ca8c3a85d8df28f64410170ce29b7",
+                "sizeBytes": 1124344
+            }
+        }
+,
+        {
+            "id": "routine",
+            "displayName": "Rutinler",
+            "subtitle": "Tekrarlayan rutin + günlük log + streak + tutarsızlık motoru",
+            "description": "Daily/weekly/monthly tekrarlı rutinler, sağlık verisinden otomatik tamamlama",
+            "icon": "repeat",
+            "color": "teal",
+            "kind": "other",
+            "category": "productivity",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/routine/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/routine-v1.0.2/routine.bundle.zip",
+                "sha256": "a67d8016e77a0293cafe9eb939da07fb5e80b36fb1cdbb9224ff5b6320c8dedd",
+                "sizeBytes": 1134676
+            }
+        }
+,
+        {
+            "id": "life_context",
+            "displayName": "Yaşam Bağlamı",
+            "subtitle": "Sağlık/iş/ev notları (rutin tutarsızlık motorunu etkinleştirir)",
+            "description": "Aktif yaşam bağlamı notlarını tutar",
+            "icon": "person.text.rectangle",
+            "color": "brown",
+            "kind": "other",
+            "category": "productivity",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/life_context/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/life_context-v1.0.2/life_context.bundle.zip",
+                "sha256": "a1cefe0d35c093b83baade69db3f852d231f05e2e90d847011cc2a0b0dff7e73",
+                "sizeBytes": 1109987
+            }
+        }
+,
+        {
+            "id": "person_merge",
+            "displayName": "Kişi Yönetimi",
+            "subtitle": "Kişi alias birleştirme + grup yönetimi + etkileşim notları",
+            "description": "PersonMerge runtime plugin (alias resolution + person groups + interaction notes)",
+            "icon": "person.2.crop.square.stack",
+            "color": "blue",
+            "kind": "other",
+            "category": "identity",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/person_merge/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/person_merge-v1.0.2/person_merge.bundle.zip",
+                "sha256": "88dd075c405250761b5faf45f5395c703a6327119c3767993caef3e76914092a",
+                "sizeBytes": 1185550
+            }
+        }
+,
+        {
+            "id": "topic",
+            "displayName": "Konu Yönetimi",
+            "subtitle": "TopicLink + TopicAction + CrossRef yönetimi",
+            "description": "Konu yönetimi runtime plugin",
+            "icon": "text.bubble.fill",
+            "color": "orange",
+            "kind": "other",
+            "category": "productivity",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/topic/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/topic-v1.0.2/topic.bundle.zip",
+                "sha256": "c7fcabe6c1031977bd3d2567ab43da5611e7f6d2c8e4d0066cad96fb9f6b30a4",
+                "sizeBytes": 1174427
+            }
+        }
+,
+        {
+            "id": "chat_room",
+            "displayName": "Sohbet Odaları",
+            "subtitle": "WhatsApp/Teams/Instagram/iMessage/Phone oda yönetimi",
+            "description": "ChatRoom + MessageSender runtime plugin",
+            "icon": "bubble.left.and.bubble.right.fill",
+            "color": "green",
+            "kind": "other",
+            "category": "productivity",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/chat_room/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/chat_room-v1.0.2/chat_room.bundle.zip",
+                "sha256": "81d3823ba90b3281628e28c0e656b93f96dc07fc7623e4ec8c93a2deb6bdd0ca",
+                "sizeBytes": 1165428
+            }
+        }
+,
+        {
+            "id": "calendar",
+            "displayName": "Takvim",
+            "subtitle": "macOS Takvim entegrasyonu (EventKit)",
+            "description": "Tüm Takvim hesaplarını izler ve raporlara ekler",
+            "icon": "calendar",
+            "color": "red",
+            "kind": "module",
+            "category": "data_source",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/calendar/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/calendar-v1.0.2/calendar.bundle.zip",
+                "sha256": "bb6ea1d8233d74e2c74301e01f7bd8e88673b0e7b22e682a6996520e52225e2a",
+                "sizeBytes": 1125660
+            }
+        }
+,
+        {
+            "id": "reminders",
+            "displayName": "Anımsatıcılar",
+            "subtitle": "macOS Hatırlatıcılar entegrasyonu",
+            "description": "Apple Anımsatıcılar uygulamasındaki tüm aktif görevleri izler",
+            "icon": "checklist",
+            "color": "orange",
+            "kind": "module",
+            "category": "data_source",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/reminders/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/reminders-v1.0.2/reminders.bundle.zip",
+                "sha256": "d6a1a2628a08698f96e1f21ad22fba41cfe482bf533cc55359f38b1765feb5f7",
+                "sizeBytes": 1233629
+            }
+        }
+,
+        {
+            "id": "weather",
+            "displayName": "Hava Durumu",
+            "subtitle": "Open-Meteo entegrasyonu",
+            "description": "Konum bazlı günlük hava durumu raporları",
+            "icon": "cloud.sun.fill",
+            "color": "cyan",
+            "kind": "module",
+            "category": "data_source",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/weather/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/weather-v1.0.2/weather.bundle.zip",
+                "sha256": "b5cc7b8064bd3f1f3c5992b8f1500d7b23206d33da368b274be2cdb43e5dcf92",
+                "sizeBytes": 1129171
+            }
+        }
+,
+        {
+            "id": "azure_effort",
+            "displayName": "Azure DevOps Efor",
+            "subtitle": "Work item / story point takibi",
+            "description": "Tüm takım için story point yükü ve aktif iş öğeleri",
+            "icon": "chart.bar.fill",
+            "color": "blue",
+            "kind": "module",
+            "category": "data_source",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/azure_effort/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/azure_effort-v1.0.2/azure_effort.bundle.zip",
+                "sha256": "14e3619bfdb94ec84b3556f5f67a4e33044237faacbf94546234d7c21986f353",
+                "sizeBytes": 1234594
+            }
+        }
+,
+        {
+            "id": "azure_pr",
+            "displayName": "Azure DevOps PR",
+            "subtitle": "Pull Request raporu",
+            "description": "Aktif PR'lar ve günlük tamamlananlar",
+            "icon": "arrow.triangle.merge",
+            "color": "blue",
+            "kind": "module",
+            "category": "data_source",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/azure_pr/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/azure_pr-v1.0.2/azure_pr.bundle.zip",
+                "sha256": "9e371055f89e88952b15b0c83b1a4974335bb50822b930ab2508588050abeeeb",
+                "sizeBytes": 1233149
+            }
+        }
+,
+        {
+            "id": "call_note",
+            "displayName": "Telefon Notları",
+            "subtitle": "Telefon arama geçmişi + notlar",
+            "description": "Cevapsız aramalar için bildirim ve not yönetimi",
+            "icon": "phone.fill",
+            "color": "green",
+            "kind": "module",
+            "category": "data_source",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/call_note/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/call_note-v1.0.2/call_note.bundle.zip",
+                "sha256": "df11354c9d18b5325d46141c2cb10407404d8f232dda95b74a8be0f8feb7827c",
+                "sizeBytes": 1234260
+            }
+        }
+,
+        {
+            "id": "health",
+            "displayName": "Sağlık",
+            "subtitle": "Apple Health entegrasyonu",
+            "description": "Adım, uyku, kalori, kalp atış hızı raporları",
+            "icon": "heart.fill",
+            "color": "red",
+            "kind": "module",
+            "category": "data_source",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/health/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/health-v1.0.2/health.bundle.zip",
+                "sha256": "e6fbda99ab3d3e5ab1c17608bdf4e5ad2237bb82c0228464b14860c4cca5e30b",
+                "sizeBytes": 1254912
+            }
+        }
+,
+        {
+            "id": "exchange_mail",
+            "displayName": "Exchange Mail",
+            "subtitle": "Microsoft Exchange e-posta",
+            "description": "Exchange üzerinden e-posta özeti",
+            "icon": "envelope.badge.fill",
+            "color": "blue",
+            "kind": "module",
+            "category": "data_source",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/exchange_mail/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/exchange_mail-v1.0.2/exchange_mail.bundle.zip",
+                "sha256": "368915c6c1755d1f5e6ab23b85f611d7152f75513188ca8feb5ee5d010344022",
+                "sizeBytes": 1098811
+            }
+        }
+,
+        {
+            "id": "home_assistant",
+            "displayName": "Home Assistant",
+            "subtitle": "Akıllı ev cihazları",
+            "description": "Home Assistant üzerinden cihaz durumu ve kontrol",
+            "icon": "house.fill",
+            "color": "cyan",
+            "kind": "module",
+            "category": "data_source",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/home_assistant/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/home_assistant-v1.0.2/home_assistant.bundle.zip",
+                "sha256": "c606e91950ee2e8568901739656cfdbb7bb2320eb05cd342e678206f9dd96370",
+                "sizeBytes": 1156116
+            }
+        }
+,
+        {
+            "id": "instagram_dm",
+            "displayName": "Instagram DM",
+            "subtitle": "Instagram mesajları",
+            "description": "Instagram DM özeti (Docker bridge)",
+            "icon": "camera.fill",
+            "color": "pink",
+            "kind": "module",
+            "category": "messaging",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/instagram_dm/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/instagram_dm-v1.0.2/instagram_dm.bundle.zip",
+                "sha256": "608c10a5370bdfc2737877b985326dbad3ef3c4c27bd9fda6b56c5776460191f",
+                "sizeBytes": 1324479
+            }
+        }
+,
+        {
+            "id": "linkedin",
+            "displayName": "LinkedIn",
+            "subtitle": "LinkedIn aktivite",
+            "description": "LinkedIn invitations + DM özeti",
+            "icon": "briefcase.fill",
+            "color": "blue",
+            "kind": "module",
+            "category": "messaging",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/linkedin/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/linkedin-v1.0.2/linkedin.bundle.zip",
+                "sha256": "52a276b31dba5c8baa0e53c34a78e55a1311ee00ea61448df83f729a83998155",
+                "sizeBytes": 1311927
+            }
+        }
+,
+        {
+            "id": "teams",
+            "displayName": "Microsoft Teams",
+            "subtitle": "Teams sohbet özeti",
+            "description": "Tüm Teams kanallarındaki günlük aktivite",
+            "icon": "person.3.fill",
+            "color": "purple",
+            "kind": "module",
+            "category": "messaging",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/teams/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/teams-v1.0.2/teams.bundle.zip",
+                "sha256": "fafc2ca77cc0ddbc46e57e9572e00b46af807d94307812ccea09bcd61ad9cb46",
+                "sizeBytes": 1239701
+            }
+        }
+,
+        {
+            "id": "whatsapp",
+            "displayName": "WhatsApp",
+            "subtitle": "WhatsApp mesaj özeti",
+            "description": "Web bridge ile WhatsApp mesajları",
+            "icon": "message.fill",
+            "color": "green",
+            "kind": "module",
+            "category": "messaging",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/whatsapp/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/whatsapp-v1.0.2/whatsapp.bundle.zip",
+                "sha256": "77237b904739fc30ebc8311892e499db5bb463eb4e2cefc6e48132a923f17f1a",
+                "sizeBytes": 1147497
+            }
+        }
+,
+        {
+            "id": "icloud_mail",
+            "displayName": "iCloud Mail",
+            "subtitle": "iCloud Mail entegrasyonu",
+            "description": "iCloud üzerinden e-posta özeti",
+            "icon": "envelope.fill",
+            "color": "gray",
+            "kind": "module",
+            "category": "data_source",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/icloud_mail/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/icloud_mail-v1.0.2/icloud_mail.bundle.zip",
+                "sha256": "81fe782d900391808dd84ae2c924a2e9a6a74dc27f758768e67c879bd1d168b3",
+                "sizeBytes": 1094681
+            }
+        }
+,
+        {
+            "id": "imessage",
+            "displayName": "iMessage",
+            "subtitle": "macOS iMessage",
+            "description": "chat.db üzerinden mesaj özeti",
+            "icon": "message.fill",
+            "color": "blue",
+            "kind": "module",
+            "category": "data_source",
+            "version": "1.0.2",
+            "minimumAccioraVersion": "0.6.0",
+            "author": "TapForge",
+            "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/imessage/README.md",
+            "license": "Acciora Plugin EULA",
+            "permissions": [],
+            "bundled": false,
+            "download": {
+                "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/imessage-v1.0.2/imessage.bundle.zip",
+                "sha256": "e3a59e02489cf2acae44c9da8bff48361fc1b87b77b86bb55612daa5607160e0",
+                "sizeBytes": 1109553
+            }
+        }
+
+    ]
 }
