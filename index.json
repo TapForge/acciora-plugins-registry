@@ -459,6 +459,28 @@
         "sha256": "700f04950813ed85db5b2793c46d6775df08ebfb9e2161eca25f0cc07e11deb9",
         "size_bytes": 1140066
       }
+    },
+    {
+      "id": "journal",
+      "displayName": "Günlük",
+      "subtitle": "Ruh hali, minnettarlık, başarı, alışkanlık ve hedef takibi",
+      "description": "Günlük ruh hali, enerji, stres, odak seviyesi; minnettarlık, başarı ve alışkanlık kayıtları; uzun vadeli hedef yönetimi. Tüm veriler SQLite'da saklanır; asistan günlük raporlara journal özetini otomatik ekler.",
+      "icon": "book.closed",
+      "color": "purple",
+      "kind": "other",
+      "category": "productivity",
+      "version": "1.0.0",
+      "minimumAccioraVersion": "0.6.0",
+      "author": "TapForge",
+      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/journal/README.md",
+      "license": "Acciora Plugin EULA",
+      "permissions": [],
+      "bundled": false,
+      "download": {
+        "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/journal-v1.0.0/journal.bundle.zip",
+        "sha256": "8e1095961afefc73039c2633e93ff55112de3f4ba5d810c5f44c3ab1ed2b212e",
+        "size_bytes": 1124323
+      }
     }
   ]
 }
