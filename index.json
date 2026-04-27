@@ -481,6 +481,50 @@
         "sha256": "8e1095961afefc73039c2633e93ff55112de3f4ba5d810c5f44c3ab1ed2b212e",
         "size_bytes": 1124323
       }
+    },
+    {
+      "id": "routine",
+      "displayName": "Rutinler",
+      "subtitle": "Tekrarlayan rutin + günlük log + streak + tutarsızlık motoru",
+      "description": "Daily/weekly/monthly tekrarlı rutinler, günlük log + streak takibi, sağlık verisinden otomatik tamamlama (steps/sleep_hours), sabah/akşam raporlarına rutin özeti. LifeContext eklentisi yüklü değilse tutarsızlık motoru sadece empty_streak kuralını çalıştırır.",
+      "icon": "repeat",
+      "color": "teal",
+      "kind": "other",
+      "category": "productivity",
+      "version": "1.0.0",
+      "minimumAccioraVersion": "0.6.0",
+      "author": "TapForge",
+      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/routine/README.md",
+      "license": "Acciora Plugin EULA",
+      "permissions": [],
+      "bundled": false,
+      "download": {
+        "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/routine-v1.0.0/routine.bundle.zip",
+        "sha256": "78face6141a45dd37e4d45ee911b0177f99116859500582f8218460a4c07d0fc",
+        "size_bytes": 1134091
+      }
+    },
+    {
+      "id": "life_context",
+      "displayName": "Yaşam Bağlamı",
+      "subtitle": "Sağlık/iş/ev notları (rutin tutarsızlık motorunu etkinleştirir)",
+      "description": "Aktif yaşam bağlamı notlarını (sağlık durumu, iş yoğunluğu, ev koşulları vb.) tutar. RoutinePlugin ile birlikte InconsistencyEngine'in tüm kurallarını (kategori bastırma, time-slot çakışması, vade dışı bağlam) etkinleştirir; tek başına asistan bağlamına yaşam notları eklemekle sınırlıdır.",
+      "icon": "person.text.rectangle",
+      "color": "brown",
+      "kind": "other",
+      "category": "productivity",
+      "version": "1.0.0",
+      "minimumAccioraVersion": "0.6.0",
+      "author": "TapForge",
+      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/life_context/README.md",
+      "license": "Acciora Plugin EULA",
+      "permissions": [],
+      "bundled": false,
+      "download": {
+        "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/life_context-v1.0.0/life_context.bundle.zip",
+        "sha256": "623526d859fcf30b97e205e23a474ae7650efe03810967b3d9562e028436572b",
+        "size_bytes": 1109986
+      }
     }
   ]
 }
