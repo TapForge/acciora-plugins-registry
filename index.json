@@ -371,6 +371,28 @@
         "sha256": "d24634bec6c18bd7cf9935fc9bdf2a0787f4d05765bbf336f6809f9dd59a7fed",
         "size_bytes": 1145976
       }
+    },
+    {
+      "id": "openai",
+      "displayName": "OpenAI",
+      "subtitle": "GPT-4 / GPT-4o ile alternatif AI rapor üretimi",
+      "description": "Anthropic'e alternatif AI sağlayıcı. OpenAI API key Hesaplar > AI Provider'dan eklenir; AI & Modeller sekmesinden Anthropic vs OpenAI seçimi yapılır.",
+      "icon": "brain.head.profile",
+      "color": "green",
+      "kind": "aiProvider",
+      "category": "ai_provider",
+      "version": "1.0.0",
+      "minimumAccioraVersion": "0.6.0",
+      "author": "TapForge",
+      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/openai/README.md",
+      "license": "Acciora Plugin EULA",
+      "permissions": [],
+      "bundled": false,
+      "download": {
+        "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/openai-v1.0.0/openai.bundle.zip",
+        "sha256": "bed6fdbe7268025c38ee12358b9b9b071bc4075dac51ff8a7f82c0c1dbe42940",
+        "size_bytes": 1139786
+      }
     }
   ]
 }
