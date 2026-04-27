@@ -1,6 +1,6 @@
 {
     "registry_version": 1,
-    "generated_at": "2026-04-27T11:51:31Z",
+    "generated_at": "2026-04-27T12:02:31Z",
     "plugins": [
         {
             "id": "anthropic",
@@ -23,8 +23,7 @@
                 "sha256": "65ce4a1be9f438d8ad36e2bb85d01d29df0cb6f538061f82a1b9395b337da73b",
                 "sizeBytes": 1148630
             }
-        }
-,
+        },
         {
             "id": "openai",
             "displayName": "OpenAI",
@@ -46,8 +45,7 @@
                 "sha256": "885923cb63e0955ccb597b8526ebbf2d9273361fabfb12a262e74d1f17c081c5",
                 "sizeBytes": 1142337
             }
-        }
-,
+        },
         {
             "id": "elevenlabs",
             "displayName": "ElevenLabs",
@@ -69,8 +67,7 @@
                 "sha256": "2561d3e0a1c5745c4640d8e9f35aba7b5b9825c0f5526062a605a7242ad2c3ae",
                 "sizeBytes": 1135952
             }
-        }
-,
+        },
         {
             "id": "backup",
             "displayName": "Yedekleme",
@@ -92,8 +89,7 @@
                 "sha256": "83b5ca5bb369b5f4c9fd72ccae25e8b369bf142cb39378c43da6832ebca8e39f",
                 "sizeBytes": 1117003
             }
-        }
-,
+        },
         {
             "id": "finance",
             "displayName": "Finans",
@@ -115,8 +111,7 @@
                 "sha256": "0c2b51b141da3f883b16a64fd3153e704c6a4953bba9564b481efcc3e62cde6c",
                 "sizeBytes": 1140215
             }
-        }
-,
+        },
         {
             "id": "journal",
             "displayName": "Günlük",
@@ -138,8 +133,7 @@
                 "sha256": "2a75a870cb7ab881fa03d7c0d02367abcb0675ccb9847bee1c69be7dd935f014",
                 "sizeBytes": 1124394
             }
-        }
-,
+        },
         {
             "id": "routine",
             "displayName": "Rutinler",
@@ -161,8 +155,7 @@
                 "sha256": "86dd4f91e4a6f584507de9576d2b2d3c8e3fbb7fc03a9c9004252ebf8124ff09",
                 "sizeBytes": 1134210
             }
-        }
-,
+        },
         {
             "id": "life_context",
             "displayName": "Yaşam Bağlamı",
@@ -184,8 +177,7 @@
                 "sha256": "6af6a95bd03c90e69cc115b79ff6556db146cc35923708ee4b61028080fb524e",
                 "sizeBytes": 1110073
             }
-        }
-,
+        },
         {
             "id": "person_merge",
             "displayName": "Kişi Yönetimi",
@@ -207,8 +199,7 @@
                 "sha256": "51c481fe82a159abace16656ace87f264ed93e5e629e5cf13b64ee3b93032477",
                 "sizeBytes": 1185616
             }
-        }
-,
+        },
         {
             "id": "topic",
             "displayName": "Konu Yönetimi",
@@ -230,8 +221,7 @@
                 "sha256": "cf0191b4fc2cdf864e4ecdaa09bc6f4b39516fc6ccb0d91aab745cbe8472d73f",
                 "sizeBytes": 1174536
             }
-        }
-,
+        },
         {
             "id": "chat_room",
             "displayName": "Sohbet Odaları",
@@ -253,8 +243,7 @@
                 "sha256": "bda498509e1524868ad2d046fb526177292b92db253d649d7a551bbe3db5cce6",
                 "sizeBytes": 1165425
             }
-        }
-,
+        },
         {
             "id": "calendar",
             "displayName": "Takvim",
@@ -276,8 +265,7 @@
                 "sha256": "44c32594396fe1f2958254bc7a73f556f52bf9bc1e632f5078d443827b12e871",
                 "sizeBytes": 1125824
             }
-        }
-,
+        },
         {
             "id": "reminders",
             "displayName": "Anımsatıcılar",
@@ -299,8 +287,7 @@
                 "sha256": "617a52c19b16a971658040d23b9a163d489f937f809383cdd380a6efb9a4bd5d",
                 "sizeBytes": 1233793
             }
-        }
-,
+        },
         {
             "id": "weather",
             "displayName": "Hava Durumu",
@@ -322,8 +309,7 @@
                 "sha256": "bbc4f282345e305e97e1a5dabc5ba77e29cd400244582de6888dd8c09e7f4cfb",
                 "sizeBytes": 1129288
             }
-        }
-,
+        },
         {
             "id": "azure_effort",
             "displayName": "Azure DevOps Efor",
@@ -342,11 +328,10 @@
             "bundled": false,
             "download": {
                 "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/azure_effort-v1.0.3/azure_effort.bundle.zip",
-                "sha256": "21f3aab3826e19de1b3e4c4f5f0a7ba1e06e94e6d88ebc9c34840e41df261ade",
-                "sizeBytes": 1234874
+                "sha256": "6af68140a461123f3ef40d01dd7268015c4d6235b1fcbf5cc8047bf0f28e069d",
+                "sizeBytes": 1234615
             }
-        }
-,
+        },
         {
             "id": "azure_pr",
             "displayName": "Azure DevOps PR",
@@ -365,11 +350,10 @@
             "bundled": false,
             "download": {
                 "bundleUrl": "https://github.com/TapForge/acciora-plugins-registry/releases/download/azure_pr-v1.0.3/azure_pr.bundle.zip",
-                "sha256": "717b56e6d509807183f5ea226babad28d8cb1cf2197794ec5563ce67e3aae6da",
-                "sizeBytes": 1233296
+                "sha256": "b919d91c47731b1f45578f4eb8a920f1e4c998c317c65080f522f5b48515cc8a",
+                "sizeBytes": 1231998
             }
-        }
-,
+        },
         {
             "id": "call_note",
             "displayName": "Telefon Notları",
@@ -391,8 +375,7 @@
                 "sha256": "a1f5e49230e573b769e7c557b66f3071ca543bd531372a18235e3b4697b59d46",
                 "sizeBytes": 1234417
             }
-        }
-,
+        },
         {
             "id": "health",
             "displayName": "Sağlık",
@@ -414,8 +397,7 @@
                 "sha256": "23f12e77c1440289e3d85a6af5ee95a770b75524f09fd92a418932306c011d88",
                 "sizeBytes": 1255056
             }
-        }
-,
+        },
         {
             "id": "exchange_mail",
             "displayName": "Exchange Mail",
@@ -437,8 +419,7 @@
                 "sha256": "44f917b90b7cbfa10debb82d4356f8d75f63e3ffa6c5ae9abae7e6e6f753b880",
                 "sizeBytes": 1099025
             }
-        }
-,
+        },
         {
             "id": "home_assistant",
             "displayName": "Home Assistant",
@@ -460,8 +441,7 @@
                 "sha256": "34688f9a039f05f627c77e09d5bf4894561d5ad027158c7b5fe8fd3dda10d0b2",
                 "sizeBytes": 1156314
             }
-        }
-,
+        },
         {
             "id": "instagram_dm",
             "displayName": "Instagram DM",
@@ -483,8 +463,7 @@
                 "sha256": "2ad701c29ee695aab9a6b2c8512ebbdbc0a3c1de4deb5c0ca39f6d98f6514367",
                 "sizeBytes": 1324745
             }
-        }
-,
+        },
         {
             "id": "linkedin",
             "displayName": "LinkedIn",
@@ -506,8 +485,7 @@
                 "sha256": "e0ab8348897e2ac5e0e901de029aaec32ac73d314686c6047d9286225eabcd85",
                 "sizeBytes": 1312237
             }
-        }
-,
+        },
         {
             "id": "teams",
             "displayName": "Microsoft Teams",
@@ -529,8 +507,7 @@
                 "sha256": "5ada574a3e00fa6405e42592ab343c301246b8c19295fb396917ba5c843dd4f4",
                 "sizeBytes": 1239980
             }
-        }
-,
+        },
         {
             "id": "whatsapp",
             "displayName": "WhatsApp",
@@ -552,8 +529,7 @@
                 "sha256": "ea6aa0bd1c60e6ba77bbc535b862c16cb026ba827840845f532a7a5dbfa6e675",
                 "sizeBytes": 1147728
             }
-        }
-,
+        },
         {
             "id": "icloud_mail",
             "displayName": "iCloud Mail",
@@ -575,8 +551,7 @@
                 "sha256": "b15b0a0dc2d8076e59f2715e99428aca6a3af8c38deb56b73377a8357b15cd43",
                 "sizeBytes": 1094887
             }
-        }
-,
+        },
         {
             "id": "imessage",
             "displayName": "iMessage",
@@ -599,6 +574,5 @@
                 "sizeBytes": 1109708
             }
         }
-
     ]
 }
