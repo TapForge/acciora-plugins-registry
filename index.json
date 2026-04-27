@@ -349,6 +349,28 @@
         "sha256": "0ceb372c0b7d35f6f571b21d67cf5e21774388e1c3c30c85064c12ddf4bb67f5",
         "size_bytes": 1254892
       }
+    },
+    {
+      "id": "anthropic",
+      "displayName": "Anthropic (Claude)",
+      "subtitle": "Claude API + claude CLI ile AI rapor üretimi",
+      "description": "Acciora'nın AI omurgası — Claude Sonnet/Opus modelleri ile rapor, karar motoru ve digest üretir. API key Hesaplar > AI Provider sekmesinden eklenir.",
+      "icon": "sparkles",
+      "color": "purple",
+      "kind": "aiProvider",
+      "category": "ai_provider",
+      "version": "1.0.0",
+      "minimumAccioraVersion": "0.6.0",
+      "author": "TapForge",
+      "homepage": "https://github.com/TapForge/acciora-plugins-registry/blob/main/plugins/anthropic/README.md",
+      "license": "Acciora Plugin EULA",
+      "permissions": [],
+      "bundled": false,
+      "download": {
+        "bundle_url": "https://github.com/TapForge/acciora-plugins-registry/releases/download/anthropic-v1.0.0/anthropic.bundle.zip",
+        "sha256": "d24634bec6c18bd7cf9935fc9bdf2a0787f4d05765bbf336f6809f9dd59a7fed",
+        "size_bytes": 1145976
+      }
     }
   ]
 }
